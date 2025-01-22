@@ -1,0 +1,12 @@
+### GET Request to fetch all tasks
+GET http://localhost:8080/tasks
+Accept: application/json
+
+### POST Request to create a new task
+POST http://localhost:8080/tasks
+Content-Type: application/json
+
+{
+    "title": "Walk the Dog",
+    "description": "Take the dog around the block"
+}
